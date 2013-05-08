@@ -70,3 +70,11 @@ ro.camera.sound.disabled=1
 # USB Mounting
 persist.sys.usb.config=mass_storage,adb
 
+# Saga Hardware Info
+ro.device.chipset=Qualcomm MSM8255 Snapdragon
+ro.device.cpu=1 GHz Scorpion
+ro.device.gpu=Adreno 205
+ro.device.front_cam=VGA 640x480 pixels
+ro.device.rear_cam=5 MP 2592 x 1944 pixels Autofocus LED flash
+ro.device.screen_res=480 x 800 pixels 3.7 inches 252 ppi
+
