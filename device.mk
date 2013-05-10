@@ -60,6 +60,10 @@ PRODUCT_PACKAGES += \
     lights.saga \
     sensors.saga
 
+#Bluetooth vendor file
+PRODUCT_COPY_FILES += \
+    device/htc/saga/configs/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+	
 # idc files
 PRODUCT_COPY_FILES += \
     device/htc/saga/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
